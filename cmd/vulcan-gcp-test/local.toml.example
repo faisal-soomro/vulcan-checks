@@ -1,0 +1,3 @@
+[Check]
+Target = "gcp-project"
+AssetType = "GCPProject"

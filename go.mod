@@ -2,6 +2,9 @@ module github.com/adevinta/vulcan-checks
 
 go 1.19
 
+replace github.com/adevinta/vulcan-types => ../vulcan-types
+replace github.com/adevinta/vulcan-check-sdk => ../vulcan-check-sdk
+
 require (
 	github.com/FiloSottile/Heartbleed v0.2.1-0.20150408030656-4a3332ca1dc0
 	github.com/Masterminds/semver/v3 v3.2.1
